@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Host: mysait.intellectit.by
+Sitemap: http://mysait.intellectit.by/current_sitemap.xml
