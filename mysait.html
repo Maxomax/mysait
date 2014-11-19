@@ -4,15 +4,20 @@
 	<meta charset="UTF-8" />
     <meta name="description" content="Пробное создание сайта">
     <meta name="keywords" content="HTML5, CSS3, JavaScript" />
-	<title>Официальный сайт Максима Федорова</title>
+	<title>Официальный сайт Максима Федорова | ® Maxomax.by</title>
+    <style>
+    p { font-size: 20px }
+    span { font-size: 20px }
+    </style>
 	<link rel="stylesheet" href="mystyles.css" />
 	<link rel="stylesheet" href="css/mysait_style.css" />
 </head>
 <body>
-	<header>
-		<a href="/" title="Перейти на главную страницу сайта">mysait</a>
+<div id="wrapper">
+	<header id="main_header">
+         <a href="/" title="Перейти на главную страницу сайта">mysait</a>
     </header>
-    <nav>
+    <nav id="main_menu">
     	<ul>
     		<li>фотографии</li>
     		<li>видео</li>
@@ -20,17 +25,23 @@
 
         </ul>
     </nav>
-    <section>
+    <section id="main_section">
     	<article>
     		<header>
             <hgroup>
-    			<h1>Первая стадия разработки</h1>
+    			<h1><span><cite>Первая стадия разработки</cite></span></h1>
                 <time datetime="2014-10-21" pubdate>опубликовано 21.10.2014</time>
                 <h2>Пробная версия</h2>
             </hgroup>
             </header>
-            <p><span>Я Федоров Максим Алексанрович,ученик <mark>http://intellectit.by</mark>,это мой первый сайт, который я начал делать сам и в скорем времени этот проект станет "настоящим" 
+            <p style="font size: 20px"><span>Я Федоров Максим Алексанрович,ученик <mark>http://intellectit.by</mark>,это мой первый сайт, который я начал делать сам и в скорем времени этот проект станет "настоящим" 
             сайтом!</span></p>
+    <div id="wrapper">
+        <p class="mytext1">Мой текст1</p>
+        <p class="mytext2"><span>Мой текст2</span></p>
+        <p class="mytext3">Мой текст3</p>
+        <p class="mytext4">Мой текст4</p>
+    </div>
             <figure>
                 <img class="custom-img" src="img/image.jpg" alt="Моя команда" title="Команда создателей">
                 <figcaption>
